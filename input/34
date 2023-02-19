@@ -1,0 +1,11 @@
+As presented in the lecture, Westlaw is a popular commercial information retrieval system. You can search for documents by Boolean Terms and Connector queries. For example:
+STATUTE ACTION /S FEDERAL /2 TORT /3 CLAIM
+    
+where STATUTE, ACTION, FEDERAL, TORT, CLAIM are the search terms and space, /S, /2, /3 are the connectors.
+
+In this CSE project, you are going to implement a retrieval system in Python3 called SimplyBoolean, which you have already encountered this program in the previous assignment submission. As a core requirement for this project, you must implement SimplyBoolean using a positional index.
+
+SimplyBoolean is a retrieval system that supports Westlaw alike queries. It supports the following reduced set of connectors:
+" ", space, +n, /n, +s, /s, &
+    
+as well as parentheses. Note that the connectors of your query will be processed in exactly the order above. Further details of these connectors can be found in the Quick Reference Guide of WestLaw available from WebCMS.

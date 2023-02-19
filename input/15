@@ -1,0 +1,14 @@
+Marking
+This assignment is worth 30 points.
+
+Your submission will be tested and marked on CSE linux machines using Python3. Therefore, please make sure you have tested your solution on these machines using Python3 before you submit. You will not receive any marks if your program does not work on CSE linux machines and only works in other environment such as your own laptop.
+
+Full marks will be awarded to submissions that follow this specification and pass all the test cases.
+
+Although we do not measure the runtime speed, your indexing program will be terminated if it does not end after one minute, and you will receive zero marks for the project (since we cannot get the index generated successfully for further testing); and your search program will be terminated if it does not end after 10 seconds per search query, and you will receive zero marks for that search query.
+
+There will be test cases for each connector in addition to the test cases for mixing several connectors. Therefore, if you are unable to implement all the required connectors, try your best to implement as many as you can.
+Submission
+Deadline: Monday 7th November 12:00pm AEST (noon).
+
+The penalty for late submission of assignments will be 5% (of the worth of the assignment) subtracted from the raw mark per day of being late. In other words, earned marks will be lost. No assignments will be accepted later than 5 days after the deadline.
